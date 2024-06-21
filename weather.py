@@ -42,10 +42,6 @@ def search():
 
         time_label.config(text=local_time.strftime(' %I:%M:%S %p %Z'))
 
-
-
-
-
     else:
         messagebox.showerror(message='Error,Could not find any location!!!',title='ERROR!!!!')
 
@@ -114,4 +110,5 @@ feels_like2.grid(row=3,column=1,padx=10)
 
 cent_text2=Label(display,text=' °C ',font=('Times',15),bg='#78c0c9')
 cent_text2.grid(row=3,column=2,padx=5)
+
 win.mainloop()
